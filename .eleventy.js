@@ -1,6 +1,6 @@
-.
-├── .eleventy.js
-├── _includes
-├── _site
-├── css
-└── index.html
+module.exports = function(eleventyConfig) {
+    eleventyConfig.addPassthroughCopy('css')
+    return {
+      passthroughFileCopy: true
+    }
+  }
