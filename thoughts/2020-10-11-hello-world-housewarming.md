@@ -1,5 +1,5 @@
 ---
-layout: thought.njk
+tags: thoughts
 title: 'hello world: a housewarming'
 ---
 Recently I completed Hyperlink Academy's Internet Homesteading course as part of the first cohort.
