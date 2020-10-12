@@ -2,12 +2,11 @@
 layout: base.njk
 title: thoughts
 ---
-{% for thoughts in collections.thoughts %}
+
 <ul>
-    {% for thoughts in thoughts %}
-      <li>{{ thoughts.title }}</li>
-    {% else %}
-      <li>This would display if the 'item' collection were empty</li>
-    {% endfor %}
-    </ul>
-{% endfor %}
+  {% for thoughts in collections.thoughts %}
+  <li>{{ thoughts.title }}</li>
+  {% else %}
+  <li>This would display if the 'item' collection were empty</li>
+  {% endfor %}
+</ul>
