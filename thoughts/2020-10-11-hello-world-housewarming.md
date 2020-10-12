@@ -1,6 +1,6 @@
 ---
 layout: thought.njk
-title: "hello world: a housewarming"
+title: 'hello world: a housewarming'
 ---
 Recently I completed Hyperlink Academy's Internet Homesteading course as part of the first cohort.
 
