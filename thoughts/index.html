@@ -5,7 +5,7 @@ title: thoughts
 
 <ul>
   {% for thoughts in collections.thoughts %}
-  <li>{{ thoughts.data.title }}</li>
+  <li><a href="{{ thoughts.url | url }}">{{ thoughts.data.title }}</a></li>
   {% else %}
   <li>This would display if the 'item' collection were empty</li>
   {% endfor %}
