@@ -5,6 +5,11 @@ body {
   grid-template-columns: 1fr 640px 1fr;
 }
 
+footer {
+  grid-column: -1/1;
+  height: 200px;
+}
+
 .marquee {
   display: flex;
   align-items: center;
