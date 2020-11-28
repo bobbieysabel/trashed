@@ -1,65 +1,37 @@
 body {
-    background-color: #272727;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 10vh 80vh 10vh;
-  }
-  
-  #chat-window {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    background-color: #edaca4;
-    grid-column: 2/3;
-    grid-row: 2/3;
-    padding: 2% 2%;
-  }
-  
-  #sidebar {
-    grid-column: 1/2;
-  }
-  
-  #content {
-    grid-column: 2/3;
-  }
-  
-  #chatbox {
-    background-color: #272727;
-    height: 22%;
-    width: 100%;
-  }
-  
-  .marquee {
-    display: flex;
-    align-items: center;
-    height: 30px;
-    width: 100%;
-    grid-column: -1/1;
-    background-color: #edaca4;
-    overflow: hidden;
-    position: relative;
-    z-index: 2;
-  }
-  
-  .marquee p {
-    color: #272727;
-    position: absolute;
-    width: 100%;
-    margin: 0;
-    text-align: center;
-  }
-  
-  h1 {
-    font-family: "DM Serif Display", serif;
-  }
-  
-  h2 {
-    font-family: "DM Mono", monospace;
-    font-size: 12px;
-  }
-  
-  p,
-  li {
-    font-family: "DM Sans", sans-serif;
-    font-size: 12px;
-  }
-  
+  font-size: 16px;
+  background-color: #272727;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.marquee {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 100%;
+  grid-column: -1/1;
+  background-color: #edaca4;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.marquee p {
+  color: #272727;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 2.25rem;
+}
+
+p,
+li {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1rem;
+}
