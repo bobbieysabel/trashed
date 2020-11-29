@@ -8,7 +8,13 @@ eleventyNavigation:
 
 <ul>
   {% for thoughts in collections.thoughts %}
-  <li><a href="{{ thoughts.url | url }}">{{ thoughts.data.title }}</a></li>
+  <li>
+    <a href="{{ thoughts.url | url }}">
+      <div class="post-container">
+        <h1>{{ thoughts.data.title }}</h1>
+      </div>
+    </a>
+  </li>
   {% else %}
   <li>This would display if the 'item' collection were empty</li>
   {% endfor %}

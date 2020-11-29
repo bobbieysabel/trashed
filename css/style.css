@@ -100,6 +100,17 @@ li {
   color: #FFFFFF;
 }
 
-a:link {
+a:link, a:visited {
   text-decoration: none;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+.post-container {
+  background-color: #F9ECD1;
+  padding: 1.5rem 1.5rem;
+  margin: 0.5rem 0;
 }
