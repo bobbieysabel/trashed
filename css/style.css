@@ -95,6 +95,7 @@ li {
 }
 
 .nav {
+  padding: .5rem;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   font-size: 1rem;
