@@ -123,3 +123,11 @@ a:visited {
   padding: 0;
   list-style-type: none;
 }
+
+.post-date {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-size: .75rem;
+  line-height: 1.5rem;
+  color: #272727;
+}

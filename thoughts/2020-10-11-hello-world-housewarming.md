@@ -1,6 +1,7 @@
 ---
 tags: thoughts
 title: 'hello world: a housewarming'
+date: 2020-10-11
 ---
 Recently I completed Hyperlink Academy's Internet Homesteading course as part of the first cohort.
 
