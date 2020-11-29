@@ -1,14 +1,14 @@
 ---
-layout: base.njk
+layout: main.njk
 title: thoughts
 eleventyNavigation:
   key: thoughts
   order: 1
 ---
 
-<ul>
+<ul class="post-list">
   {% for thoughts in collections.thoughts %}
-  <li>
+  <li class="post-list-item">
     <a href="{{ thoughts.url | url }}">
       <div class="post-container">
         <h1>{{ thoughts.data.title }}</h1>
